@@ -1,0 +1,38 @@
+
+.loader{
+    position: absolute;
+    height: 60px;
+    display: block;
+    transform-origin: bottom center;
+    animation: 5s infinite linear rotate;
+    top: 40%;
+    left: 50%;
+}
+.circle{
+
+    border-radius: 50%;
+    display: inline-block;
+    animation: 3s infinite linear grow;
+    transform: scale(0);
+    margin: -10px;
+	height: 40px;
+	width: 40px;
+}
+.c1{
+    background-color: pink;
+    
+}
+.c2{
+    background-color: magenta;
+    animation-delay: 1.5s;
+}
+@keyframes grow{
+    50%{
+        transform: scale(1);
+    }
+}
+@keyframes rotate{
+    to{
+        transform: rotate(360deg);
+    }
+}
