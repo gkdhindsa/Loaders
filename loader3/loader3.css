@@ -1,0 +1,46 @@
+.loader{
+    margin: 200px 300px;
+    justify-content: center;
+}
+.element{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 5px solid orangered;
+}
+.b1{
+    animation: 2000ms linear box;
+}
+.b2{
+    animation: 2000ms 400ms linear box;
+}
+.b3{
+    animation: 2000ms 800ms linear box;
+}
+.b4{
+    animation: 2000ms 1200ms linear box;
+}
+.b5{
+    animation: 2000ms 1600ms linear box;
+}
+@keyframes box{
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(-40px);
+    }
+    50%{
+        transform: translateY(-80px);
+    }
+    75%{
+        transform: translateY(-40px);
+    }
+     100%{
+        transform: translateY(0px);
+    }
+}
