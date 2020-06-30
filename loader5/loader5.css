@@ -1,7 +1,7 @@
 
 .loader{
     position: absolute;
-    height: 60px;
+    height: 50px;
     display: block;
     transform-origin: bottom center;
     animation: 5s infinite linear rotate;
